@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link rel="stylesheet" href="styles/01-styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav id="myNav">
+    <div class="name">
+      Venti
+    </div>
+
+    <div>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+    
+  </nav>
+
+ <div class="warna-ungu"></div>
+  <section id="about">
+   
+    <img class="be-observed" src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2021/03/Venti-Cover.jpg" alt="professional photo of me">
+    <div class="be-observed">
+      <h2> 
+      I'm <span class="myName">Venti</span>.<br> A web developer from Mondstadt.
+      </h2>
+      <p> 
+        I'm probably the most passionate web developer you will ever get to work with. 
+      </p>
+    </div>
+    
+  </section>
+
+  <section id="skills" class="be-observed skill-container">
+    <h2>Skills</h2>
+    <div class="skills">
+      <div class="skill">
+        <div class="skill-name">
+          <p>
+            HTML
+          </p> 
+          <img class="program-language-logo" src="photo/html-logo.png" alt="HTMl logo">
+        </div>
+        <div class="skill-description">
+          <p>
+            As a semi-professional in HTML5, I adeptly structure web pages, integrating text, images, videos, and  interactive elements. My expertise ensures cross-browser compatibility and accessibility through rigorous validation and use of global attributes like class and id.
+            I maintain organized document structures and implement SEO best practices using	&#60;meta&#62; tags and semantic HTML for optimal search engine indexing.
+          </p>
+        </div>
+      </div>
+      <div class="skill">
+        <div class="skill-name">
+          <p>
+            CSS
+          </p> 
+          <img class="program-language-logo" src="photo/css-logo.png" alt="CSS logo">
+        </div>
+        
+      </div>
+      <div class="skill">
+        <div class="skill-name">
+            <p>
+              JavaScript
+            </p> 
+            <img class="program-language-logo" src="photo/JavaScript-logo.png" alt="JavaScript logo">
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>MY PROJECTS</h2>
+    <h3>Projects that I've done before</h3>
+    <div class="projects">
+      <div class="project project1 be-observed">
+        <div class="carousel-container" data-carousel="1">
+          <button class="carousel-button prev" onclick="prevSlide(1)">&#10094;</button>
+          <button class="carousel-button next" onclick="nextSlide(1)">&#10095;</button>
+          <div class="carousel">
+              <div class="carousel-item"><img src="photo/project2 main.png" alt="Image 1"></div>
+              <div class="carousel-item"><img src="photo/project2 cart.png" alt="Image 2"></div>
+          </div>
+          
+        </div>
+        <div class="project-info">
+          <h3>Amazon Clone Project</h3>
+          <p>
+            This project is an Amazon clone that highlights the use of JavaScript to get the data from the backend, generate HTML and create interactive elements. It demonstrates a solid understanding of JavaScript fundamentals, including the Fetch API integration, Model-View-Controller (MVC) method and Object-Oriented Programming (OOP) principles.
+          </p>
+        </div>
+      </div>
+
+      <div class="project project2 be-observed">
+        <div class="carousel-container" data-carousel="2">
+          <button class="carousel-button prev" onclick="prevSlide(2)">&#10094;</button>
+          <button class="carousel-button next" onclick="nextSlide(2)">&#10095;</button>
+          <div class="carousel">
+              <div class="carousel-item"><img src="photo/project1 photo.png" alt="Image 1"></div>
+              <div class="carousel-item"><img src="photo/project1 sidebar.png" alt="Image 2"></div>
+              <div class="carousel-item"><img src="photo/project1 subscription.png" alt="Image 3"></div>
+              <div class="carousel-item"><img src="photo/project1 you1.png" alt="Image 4"></div>
+              <div class="carousel-item"><img src="photo/project1 you2.png" alt="Image 5"></div>
+          </div>
+        </div>
+        <div class="project-info">
+          <h3>Youtube Clone Project</h3>
+          <p>
+            This project is a Youtube clone that replicate the styling and layout of the original website.
+            It feature a fluid design that adapts to different device widths, accurate placement of element, and interactive component such as the sidebar menu. This project shocase a strong understanding in HTML and CSS element such as grid and flexbox.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <h2>Contacts</h2>
+    <div>
+      Email: <a href="mailto:jonathan.alvin2019@gmail.com"> jonathan.alvin2019@gmail.com</a>
+    </div>
+    <div>
+      WhatsApp: (+62) 899-2153-749
+    </div>
+  </footer>
+  
+
+  <script src="scripts/01-script.js"></script>
+</body>
+</html>
